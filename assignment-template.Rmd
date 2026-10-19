@@ -1,0 +1,41 @@
+---
+title: "课程作业标题"
+author: "WYY"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: flatly
+    code_folding: hide
+    self_contained: true
+    number_sections: true
+lang: zh-CN
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+# 作业简介
+
+填写课程名称、学期、作业要求与研究问题。
+
+# 数据与方法
+
+说明数据来源、分析方法与可复现步骤。
+
+# 分析过程
+
+```{r example}
+# 示例代码，请替换成自己的数据分析
+plot(cars, main = "示例图表")
+```
+
+# 结果与讨论
+
+记录主要发现、局限与思考。
+
+# 参考资料
+
+填写引用来源。
